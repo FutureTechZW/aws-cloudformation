@@ -8,6 +8,8 @@ The front  end consist of  the following  AWS resources
 1. Cloud front distribution 
 2. S3 bucket
 3. SSL Certificate
+4. BucketPolicy
+5. CloudFrontOriginAccessIdentity
 
 It also consist of and index.html file that is linke to the template.yml file
 
