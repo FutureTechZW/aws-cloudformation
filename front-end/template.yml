@@ -24,7 +24,7 @@ Resources:
       DomainName: michaelchiramba.cf
       DomainValidationOptions:
             - DomainName: michaelchiramba.cf
-              HostedZoneId: <your hosted zone id in route53>
+              HostedZoneId: <Z09618461V84Q8NIN4SU>
       ValidationMethod: DNS    
   CloudFrontDistribution:
     Type: AWS::CloudFront::Distribution
