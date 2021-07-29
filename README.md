@@ -3,15 +3,17 @@ Front-end
 template1-designer(2).png![image](https://user-images.githubusercontent.com/51120436/127410511-197cd156-3426-4d45-9c48-ee21ef229b66.png)
 
 
-The front  end consist of  the following  AWS resources
+The front-end consists of  the following  AWS resources
 
-1. Cloud front distribution 
+1. Cloudfront distribution 
 2. S3 bucket
 3. SSL Certificate
 4. BucketPolicy
 5. CloudFrontOriginAccessIdentity
+6. Rout53 Hosted zone
 
-It also consist of and index.html file that is linke to the template.yml file
+It also consist of and index.html file that is linked to the template.yml file.
+The index.html file is a resume which runs on a domain michaelchiramba.cf in Route53.
 
 
 
