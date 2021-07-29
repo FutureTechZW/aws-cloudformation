@@ -18,7 +18,7 @@ It also consist of and index.html file that is linke to the template.yml file
 Back-end 
 ![image](https://user-images.githubusercontent.com/51120436/127409974-a8c491df-5fd9-434a-b69b-00e580c35852.png)
 
-It create a vpc with 2 subnets one for ec2 instance and other for rds (mysql)
+It create a vpc with 2 subnets one for ec2 instance and other for rds (mysql).
 1. Internet Getway
 2. RouteTable
 3. Security Group
