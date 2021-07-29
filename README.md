@@ -3,17 +3,18 @@ Front-end
 template1-designer(2).png![image](https://user-images.githubusercontent.com/51120436/127410511-197cd156-3426-4d45-9c48-ee21ef229b66.png)
 
 
-The front-end consists of  the following  AWS resources
+The front-end consists of  the following AWS Resources
 
-1. Cloudfront distribution 
-2. S3 bucket
-3. SSL Certificate
-4. BucketPolicy
-5. CloudFrontOriginAccessIdentity
-6. Rout53 Hosted zone
+S3 Bucket: to host the static website content
+S3 Bucket policy: to restrict the access to the S3 bucket to CloudFront only
+Certificate Manager: to request the SSL certificate
+Route 53: to serve the content under a custom domain
+CloudFront: to serve the static website from the S3 bucket
 
 It also consist of and index.html file that is linked to the template.yml file.
 The index.html file is a resume which runs on a domain michaelchiramba.cf in Route53 hosted zone.
+
+The final outcome of the frontend can be found here http://michaelchiramba.cf.s3-website-us-east-1.amazonaws.com/
 
 
 
