@@ -13,14 +13,14 @@ The front-end consists of  the following  AWS resources
 6. Rout53 Hosted zone
 
 It also consist of and index.html file that is linked to the template.yml file.
-The index.html file is a resume which runs on a domain michaelchiramba.cf in Route53.
+The index.html file is a resume which runs on a domain michaelchiramba.cf in Route53 hosted zone.
 
 
 
 Back-end 
 ![image](https://user-images.githubusercontent.com/51120436/127409974-a8c491df-5fd9-434a-b69b-00e580c35852.png)
 
-It create a vpc with 2 subnets one for ec2 instance and other for rds (mysql).
+It consits of a vpc with 2 subnets one for ec2 instance and other for rds (mysql).
 1. Internet Getway
 2. RouteTable
 3. Security Group
